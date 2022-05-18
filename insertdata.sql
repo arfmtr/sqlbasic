@@ -1,7 +1,7 @@
 --Add 3 product in the table
-INSERT INTO product VALUES(1, 'Charger','For charge your computer');
-INSERT INTO product VALUES(2, 'Sticker','Beautifully your computer');
-INSERT INTO product VALUES(3, 'Mouse','Drag and drop easier');
+INSERT INTO product VALUES(1, 'Charger','For charge your computer',120000.00,'John');
+INSERT INTO product VALUES(2, 'Sticker','Beautifully your computer',50000.00,'Elle');
+INSERT INTO product VALUES(3, 'Mouse','Drag and drop easier',90000.00,'Mark');
 
 --Add 5 students in people table
 INSERT INTO people VALUES(1, 'Benecia','889576',07111987,5.02);
