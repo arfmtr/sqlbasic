@@ -13,6 +13,7 @@ price decimal(4,2)
 CREATE TABLE people(
 ID int,
 name varchar(100),
+phone varchar(12),
 birth date,
 heigth decimal(3,2)
 );
