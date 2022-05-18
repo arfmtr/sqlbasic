@@ -1,11 +1,8 @@
---Read all the data of the product bought by "Elle"
-SELECT * FROM product
-WHERE cust = 'Elle';
+--Change the price of all products called "Charger"
+UPDATE product SET price = 200000.00 WHERE name_pro = 'Charger';
 
---Read all data of people who have name "Demeter"
-SELECT * FROM people 
-WHERE name = 'Demeter';
+--Change the phone of the person with id 4
+UPDATE people SET phone = 819525 WHERE id = 4;
 
---Read all Asus computer data
-SELECT * FROM computer
-WHERE brand = 'Asus';
+--Change ram memory of all data in computer table 
+UPDATE computer SET ram = 24 WHERE brand IN ('Samsung','Asus','Compaq');
