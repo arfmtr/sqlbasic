@@ -10,7 +10,12 @@ INSERT INTO people VALUES(3, 'Zeus','908756',170219989,5.10);
 INSERT INTO people VALUES(4, 'Demeter','818725',110719990,6.02);
 INSERT INTO people VALUES(5, 'Aphrodite','899617',120719997,5.04);
 
---Add 3 computer in the table, specifying only the brand and processor
-INSERT INTO computer VALUES('Samsung','i5');
-INSERT INTO computer VALUES('Asus','i3');
-INSERT INTO computer VALUES('Compaq','AMDA');
+--Add 7 computer in the table, specifying only the brand, ram, and processor
+INSERT INTO computer VALUES('Samsung',24,'i5',8000000);
+INSERT INTO computer VALUES('Samsung',12,'i3',6500000);
+INSERT INTO computer VALUES('Asus',8,'i3',4000000);
+INSERT INTO computer VALUES('Asus',24,'i7',9000000);
+INSERT INTO computer VALUES('Asus',48,'i3',7500000);
+INSERT INTO computer VALUES('Apple',64,'i3',10000000);
+INSERT INTO computer VALUES('Compaq',24,'AMDA',3000000);
+INSERT INTO computer VALUES('Compaq',8,'Dual Core',2000000);
