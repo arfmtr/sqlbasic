@@ -2,9 +2,9 @@
 SELECT * FROM product
 WHERE cust = 'Elle';
 
---Read all data of people who have name "Demeter"
+--Read all data of people who have name "Zeus"
 SELECT * FROM people 
-WHERE name = 'Demeter';
+WHERE name = 'Zeus';
 
 --Read all Asus computer data
 SELECT * FROM computer
